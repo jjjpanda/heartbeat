@@ -1,7 +1,7 @@
 {
   "name": "heartbeat",
-  "main": "./lib/server.js",
-  "version": "1.0.1",
+  "main": "./lib/index.js",
+  "version": "1.1.1",
   "bin": {
     "heartbeat": "./bin/heartbeat.js"
   },
