@@ -9,6 +9,7 @@ Set up a heartbeat.config.js:
 module.exports = {
     checkUrl: "whatever url you wanna check", 
                 //or ["an", "array", "of", "urls"]
+                //or {"name": "url1", "name2": "url2", "name3": "url3"}
     webhookUrl: "webhook url you need to send the response to",
     cronString: "a valid cron expression for the check",
                 // example: every 10 minutes is "*/10 * * * *"
