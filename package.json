@@ -1,0 +1,16 @@
+{
+  "name": "heartbeat",
+  "main": "./lib/server.js",
+  "bin": {
+    "heartbeat": "./bin/heartbeat.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjjpanda/heartbeat.git"
+  },
+  "author": "jjjpanda",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "node-cron": "^3.0.0"
+  }
+}
