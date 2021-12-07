@@ -1,9 +1,17 @@
 {
   "name": "heartbeat",
+  "version": "1.2.6",
+  "description": "server health checks with webhook alerts",
   "main": "./lib/index.js",
-  "version": "1.2.5",
   "bin": {
     "heartbeat": "./bin/heartbeat.js"
+  },
+  "engines": {
+    "npm": "^6.14.4 || ^8.2.0",
+    "node": ">=10.0.0 <15.0.0"
+  },
+  "scripts": {
+    "release": "npm i --production --package-lock-only && npm shrinkwrap"
   },
   "repository": {
     "type": "git",
