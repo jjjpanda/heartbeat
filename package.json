@@ -1,6 +1,6 @@
 {
   "name": "heartbeat",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "server health checks with webhook alerts",
   "main": "./lib/index.js",
   "bin": {
@@ -21,7 +21,7 @@
   "dependencies": {
     "axios": "^1.7.0",
     "chalk": "^4.1.2",
-    "node-cron": "^3.0.0",
+    "node-cron": "^4.5.0",
     "valid-url": "^1.0.9"
   }
 }
